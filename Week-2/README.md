@@ -56,10 +56,28 @@ iface eth0 inet static
 ## Screenshots
 
 ### Topology
-![Topology](topology.png)
+![Topology](topology1.png)
 
-### Configuration
-![Config](config.png)
+### Host 1 Configuration
+![Host1](Config host 1.png)
 
-### Console Output
-![Console](console.png)
+### Host 2 Configuration
+![Host2](Config host 2.png)
+
+### IP Address Host1
+![IP1](ip address host 1.png)
+
+### IP Address Host2
+![IP2](ip address host2.png)
+
+### IP Address Host3
+![IP3](ip address host3.png)
+
+### IP Address Host4
+![IP4](ip address host 4.png)
+
+### Ping Test (Success)
+![Ping](ping host 1 to host 2 with 5 packet.png)
+
+### Ping Test (Failure)
+![Wrong](ping with wrong ip address.png)
