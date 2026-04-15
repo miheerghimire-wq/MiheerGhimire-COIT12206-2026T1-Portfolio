@@ -79,8 +79,9 @@ ovs-vsctl set port eth4 tag=20
 ![Task1 Ports](h1pingtoall.png)
 ![Task1 Ports](h4.png)
 * Same VLAN → MAC resolved
+
 * Different VLAN → incomplete
-![Task1 Ports](pingh1withh2but noth3-h4.png)
+![Task1 Ports](DifferentVLAN.png)
 ---
 
 ## Conclusion (Task 1)
