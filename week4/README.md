@@ -69,7 +69,7 @@ The network contains:
 ## Routing Table Evidence
 
 ### Router Routing Table
-![Task 1 Router ip route show](task1-router-iproute.png)
+![Task 1 Router ip route show](pingh1-router.png)
 
 ## Connectivity Test
 A successful ping from Host1 to hosts and router addresses shows that routing worked correctly across subnets.
