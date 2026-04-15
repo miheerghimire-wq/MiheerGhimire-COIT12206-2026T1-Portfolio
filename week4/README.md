@@ -121,7 +121,7 @@ This shows the routes installed in the router forwarding table.
 ## Traceroute Before Link Failure
 Before disconnecting the path, traceroute from Host1 to Host2 followed the current preferred route.
 ![Task 2 Traceroute Before](Neterm2stop.png)
-![Task 2 Traceroute Before](task2-traceroute-before.png)
+![Task 2 Traceroute Before](h1-traceroute-before.png)
 
 ## Traceroute After Link Failure
 After stopping the relevant NETem node, the route changed and traffic used the alternate path.
