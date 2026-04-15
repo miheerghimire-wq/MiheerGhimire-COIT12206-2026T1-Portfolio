@@ -37,7 +37,7 @@ iface eth0 inet static
 up echo nameserver 192.168.0.1 > /etc/resolv.conf
 
 
-
+---
 ```md
 ## Screenshots
 
