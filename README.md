@@ -37,3 +37,16 @@ iface eth0 inet static
     up echo nameserver 192.168.0.1 > /etc/resolv.conf
 
 ```
+## Screenshots
+
+### Project Creation
+![Project](project-name.png)
+
+### Topology View
+![Topology](topology.png)
+
+### Host Configuration
+![Config](config.png)
+
+### Console Output
+![Console](console.png)
