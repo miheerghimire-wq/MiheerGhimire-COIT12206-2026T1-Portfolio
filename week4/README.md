@@ -114,16 +114,13 @@ This confirms that FRR1 formed OSPF adjacencies with neighboring routers.
 ### IP Route Table
 This shows the routes installed in the router forwarding table.
 
-![Task 2 IP Route](task2-ip-route.png)
+![Task 2 IP Route](ipospfroute.png)
 
-### OSPF Route Table
-This shows the routes learned by OSPF.
-
-![Task 2 OSPF Route](task2-ospf-route.png)
+### Ho
 
 ## Traceroute Before Link Failure
 Before disconnecting the path, traceroute from Host1 to Host2 followed the current preferred route.
-
+![Task 2 Traceroute Before](task2-traceroute-before.png)
 ![Task 2 Traceroute Before](task2-traceroute-before.png)
 
 ## Traceroute After Link Failure
