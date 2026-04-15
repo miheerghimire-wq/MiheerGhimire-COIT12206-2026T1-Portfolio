@@ -126,7 +126,7 @@ Before disconnecting the path, traceroute from Host1 to Host2 followed the curre
 ## Traceroute After Link Failure
 After stopping the relevant NETem node, the route changed and traffic used the alternate path.
 
-![Task 2 Traceroute After](task2-traceroute-after.png)
+![Task 2 Traceroute After](after-result-stopping.png)
 
 ## Routing Summary Table
 
