@@ -100,7 +100,7 @@ The topology contains:
 - Two possible paths between the hosts
 - NETem nodes used to simulate path failure
 
-![Create project](1.png)
+![Create project](2.png)
 
 ![Task 2 Topology](TopologyOSPF.png)
 
