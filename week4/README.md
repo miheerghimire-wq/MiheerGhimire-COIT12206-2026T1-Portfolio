@@ -109,7 +109,7 @@ The topology contains:
 ### OSPF Neighbor Output
 This confirms that FRR1 formed OSPF adjacencies with neighboring routers.
 
-![Task 2 OSPF Neighbor](task2-ospf-neighbor.png)
+![Task 2 OSPF Neighbor](frr1showipospf.png)
 
 ### IP Route Table
 This shows the routes installed in the router forwarding table.
