@@ -54,7 +54,7 @@ The network contains:
 
 
 ### Host1 Configuration
-![Task 1 Host1 Configuration](task1-host1-config.png)
+![Task 1 Host1 Configuration](ping.png)
 
 ### Host2 Configuration
 ![Task 1 Host2 Configuration](host2.png)
