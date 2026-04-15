@@ -42,10 +42,10 @@ iface eth0 inet static
 ![Topology](topology1.png)
 
 ### Host 1 Configuration
-![Host1](Config-host 1.png)
+![Host1](Config-host1.png)
 
 ### Host 2 Configuration
-![Host2](Config-host 2.png)
+![Host2](Config-host2.png)
 
 ### IP Address Host1
 ![IP1](ip-host1.png)
@@ -60,10 +60,10 @@ iface eth0 inet static
 ![IP4](ip-host4.png)
 
 ### Console Host3
-![Console3](console-host 3.png)
+![Console3](console-host3.png)
 
 ### Console Host4
-![Console4](console-host 4.png)
+![Console4](console-host4.png)
 
 ### Ping Test (Success Host1 to Host2)
 ![Ping1](Ping-success-1to2.png)
