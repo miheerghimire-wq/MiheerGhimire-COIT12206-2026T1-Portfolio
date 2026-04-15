@@ -1,12 +1,5 @@
 # TCP/IP Configuration - Week 2
 
-## Student Details
-- Name: Miheer Ghimire
-- Student ID: 12304055
-- Course: COIT12206
-- Term: 2026 T1
-
----
 
 ## Project Overview
 This project demonstrates a TCP/IP network setup using GNS3 with multiple hosts connected through a switch. Each host is configured with a static IP address and tested using ping commands.
@@ -76,9 +69,11 @@ iface eth0 inet static
 ### IP Address Host4
 ![IP4](ip address host 4.png)
 
-### Ping Test (Success)
-![Ping](ping host 1 to host 2 with 5 packet.png)
+### Ping Test (Host1 → Host2)
+![Ping](Ping host 1 to host 2.png)
+
+### Ping Test (Host4 → Host2)
+![Ping2](Ping host 4 to host 2.png)
 
 ### Ping Test (Failure)
 ![Wrong](ping with wrong ip address.png)
-
