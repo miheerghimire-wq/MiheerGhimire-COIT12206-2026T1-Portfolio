@@ -22,7 +22,7 @@ Two tasks were performed:
 
 ##  Network Topology
 
-![Task1 Network](Task1/network.png)
+![Task1 Network](topology.png)
 
 📌 The topology shows 4 hosts connected to a switch without a router.
 
@@ -34,6 +34,11 @@ Two tasks were performed:
 * Host2 → 10.10.1.102
 * Host3 → 10.10.1.103
 * Host4 → 10.10.1.104
+
+![Configuration](h1.png)
+![Configuration](h2.png)
+![Configuration](h3.png)
+![Configuration](h4.png)
 
 ### VLAN Setup
 
