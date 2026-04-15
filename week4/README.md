@@ -60,7 +60,7 @@ The network contains:
 ![Task 1 Host2 Configuration](host2.png)
 
 ### Host3 Configuration
-![Task 1 Host3 Configuration](Screenshot 2026-04-14 112303--5.png)
+![Task 1 Host3 Configuration](hhost3.png)
 
 ## Forwarding
 - Forwarding was disabled on hosts.
@@ -75,7 +75,7 @@ The network contains:
 A successful ping from Host1 to hosts and router addresses shows that routing worked correctly across subnets.
 
 ### Host1 Ping Results
-![Task 1 Host1 Ping](task1-host1-ping.png)
+![Task 1 Host1 Ping](pingh1-router.png)
 
 ## Summary
 Task 1 was completed by:
@@ -99,7 +99,7 @@ The topology contains:
 - FRR1, FRR2, FRR3, and FRR4
 - Two possible paths between the hosts
 - NETem nodes used to simulate path failure
-
+![Project Creatre](task2-topology.png)
 ![Task 2 Topology](task2-topology.png)
 
 ## OSPF Verification
