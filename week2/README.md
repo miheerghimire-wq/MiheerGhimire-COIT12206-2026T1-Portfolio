@@ -65,10 +65,10 @@ iface eth0 inet static
 ### Console Host4
 ![Console4](console-host 4.png)
 
-### Ping Test (Success Host1 → Host2)
+### Ping Test (Success Host1 to Host2)
 ![Ping1](Ping-success-1to2.png)
 
-### Ping Test (Success Host4 → Host2)
+### Ping Test (Success Host4 to Host2)
 ![Ping2](ping-sucess-4to2.png)
 
 ### Ping Test (Failure)
