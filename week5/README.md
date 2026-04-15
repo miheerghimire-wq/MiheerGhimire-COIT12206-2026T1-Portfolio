@@ -41,7 +41,7 @@ Two tasks were performed:
 ![Configuration](h4.png)
 
 ### VLAN Setup
-
+![VLAN Setup](Setport.png)
 ```
 ovs-vsctl set port eth1 tag=10
 ovs-vsctl set port eth2 tag=10
@@ -56,7 +56,9 @@ ovs-vsctl set port eth4 tag=20
 
 ## 📸 Switch Configuration
 
-![Task1 Ports](Task1/ports.png)
+![Task1 Ports](tag.png)
+
+![Task1 Ports](tag2nd.png)
 
 📌 Shows VLAN tagging on switch ports using Open vSwitch.
 
