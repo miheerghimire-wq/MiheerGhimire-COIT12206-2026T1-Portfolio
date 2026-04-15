@@ -99,8 +99,8 @@ The topology contains:
 - FRR1, FRR2, FRR3, and FRR4
 - Two possible paths between the hosts
 - NETem nodes used to simulate path failure
-![Project Creatre](task2-topology.png)
-![Task 2 Topology](task2-topology.png)
+
+![Task 2 Topology](TopologyOSPF.png)
 
 ## OSPF Verification
 
