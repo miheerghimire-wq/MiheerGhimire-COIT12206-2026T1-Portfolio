@@ -66,7 +66,9 @@ ovs-vsctl set port eth4 tag=20
 
 ## 📊 Connectivity Testing
 
-![Task1 Ping](Task1/ping.png)
+![Task1 Ping](h1pingtoall.png)
+
+![Task1 ping](h4.png)
 
 1. Same VLAN → ping works
 2. Different VLAN → ping fails (Isolation working)
@@ -74,10 +76,11 @@ ovs-vsctl set port eth4 tag=20
 ---
 
 ##  ARP Observation
-
+![Task1 Ports](h1pingtoall.png)
+![Task1 Ports](h4.png)
 * Same VLAN → MAC resolved
 * Different VLAN → incomplete
-
+![Task1 Ports](pingh1withh2but noth3-h4.png)
 ---
 
 ## Conclusion (Task 1)
