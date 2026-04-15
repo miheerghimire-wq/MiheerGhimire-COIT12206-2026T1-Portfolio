@@ -33,7 +33,8 @@ The network contains:
 - Router connecting both subnets
 - One switch connecting Host1, Host2, and the router interface on subnet A
 
-![Task 1 Topology](task1-topology.png)
+![Project Create](name.png)
+![Task 1 Topology](outface.png)
 
 ## IP Addressing Used
 
@@ -48,16 +49,18 @@ The network contains:
 ## Configuration Evidence
 
 ### Router Configuration
-![Task 1 Router Configuration](task1-router-config.png)
+![Task 1 Router Configuration](router.png)
+![ Router Configuration](week6router.png)
+
 
 ### Host1 Configuration
 ![Task 1 Host1 Configuration](task1-host1-config.png)
 
 ### Host2 Configuration
-![Task 1 Host2 Configuration](task1-host2-config.png)
+![Task 1 Host2 Configuration](host2.png)
 
 ### Host3 Configuration
-![Task 1 Host3 Configuration](task1-host3-config.png)
+![Task 1 Host3 Configuration](Screenshot 2026-04-14 112303--5.png)
 
 ## Forwarding
 - Forwarding was disabled on hosts.
