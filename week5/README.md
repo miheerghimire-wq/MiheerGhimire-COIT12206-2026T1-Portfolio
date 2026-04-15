@@ -1,13 +1,20 @@
 # VLAN Configuration and Inter-VLAN Routing using GNS3
 
+##  Course
+
+COIT12206 – TCP/IP Principles and Protocols
+
+
+---
 
 #  Project Overview
 
-This project demonstrates the implementation of VLANs and inter-VLAN routing using Open vSwitch and a Linux Router in GNS3. 
+This project demonstrates VLAN configuration and inter-VLAN routing using Open vSwitch and a Linux Router in GNS3.
 
-The project is divided into two main tasks:
-- Task 1: VLAN configuration and isolation
-- Task 2: Inter-VLAN communication using a router
+Two tasks were performed:
+
+* Task 1: VLAN configuration and network isolation
+* Task 2: Inter-VLAN communication using a router
 
 ---
 
@@ -17,24 +24,156 @@ The project is divided into two main tasks:
 
 ![Task1 Network](Task1/network.png)
 
-📌 **Description:**
-The topology consists of four Linux hosts connected to an Open vSwitch. Each host is connected to different switch ports (eth1–eth4). No router is used in this task.
+📌 The topology shows 4 hosts connected to a switch without a router.
+
+---
+
+## ⚙️ Configuration
+
+* Host1 → 10.10.1.101
+* Host2 → 10.10.1.102
+* Host3 → 10.10.1.103
+* Host4 → 10.10.1.104
+
+### VLAN Setup
+
+```
+ovs-vsctl set port eth1 tag=10
+ovs-vsctl set port eth2 tag=10
+ovs-vsctl set port eth3 tag=20
+ovs-vsctl set port eth4 tag=20
+```
+
+📌 VLAN 10 → Host1, Host2
+📌 VLAN 20 → Host3, Host4
+
+---
+
+## 📸 Switch Configuration
+
+![Task1 Ports](Task1/ports.png)
+
+📌 Shows VLAN tagging on switch ports using Open vSwitch.
+
+---
+
+## 📊 Connectivity Testing
+
+![Task1 Ping](Task1/ping.png)
+
+1. Same VLAN → ping works
+2. Different VLAN → ping fails (Isolation working)
+
+---
+
+##  ARP Observation
+
+* Same VLAN → MAC resolved
+* Different VLAN → incomplete
+
+---
+
+## Conclusion (Task 1)
+
+VLAN successfully isolates traffic between different groups.
+
+---
+
+#  Task 2: Inter-VLAN Routing
+
+##  Network Topology
+
+![Task2 Network](Task2/network.png)
+
+📌 Router connected to switch via trunk link.
 
 ---
 
 ##  Configuration
 
-All hosts were assigned IP addresses in the same subnet:
+### VLAN Setup
 
-- Host1 → 10.10.1.101  
-- Host2 → 10.10.1.102  
-- Host3 → 10.10.1.103  
-- Host4 → 10.10.1.104  
-
-### VLAN Setup on Switch
-
-```bash
+```
 ovs-vsctl set port eth1 tag=10
 ovs-vsctl set port eth2 tag=10
 ovs-vsctl set port eth3 tag=20
 ovs-vsctl set port eth4 tag=20
+```
+
+---
+
+### Trunk Port
+
+```
+ovs-vsctl set port eth0 trunks=[]
+```
+
+📌 Allows all VLAN traffic to router.
+
+---
+
+### Router Configuration
+
+```
+ip link add link eth0 name eth0.10 type vlan id 10
+ip link add link eth0 name eth0.20 type vlan id 20
+
+ip addr add 10.10.1.1/24 dev eth0.10
+ip addr add 10.10.2.1/24 dev eth0.20
+
+ip link set eth0 up
+ip link set eth0.10 up
+ip link set eth0.20 up
+
+echo 1 > /proc/sys/net/ipv4/ip_forward
+```
+
+---
+
+##  IP Addressing
+
+| Host  | IP Address  | VLAN |
+| ----- | ----------- | ---- |
+| Host1 | 10.10.1.101 | 10   |
+| Host2 | 10.10.1.102 | 10   |
+| Host3 | 10.10.2.103 | 20   |
+| Host4 | 10.10.2.104 | 20   |
+
+---
+
+##  Router Configuration
+
+![Router Config](Task2/router-config.png)
+
+📌 Shows VLAN interfaces and gateway setup.
+
+---
+
+##  Connectivity Testing
+
+![Task2 Ping](Task2/ping.png)
+
+📌 Inter-VLAN communication successful.
+
+---
+
+##  Conclusion (Task 2)
+
+Router enables communication between VLANs successfully.
+
+---
+
+#  Tools Used
+
+* GNS3
+* Open vSwitch
+* Linux Router
+
+---
+
+#  Final Summary
+
+* VLAN isolates traffic 
+* Trunk carries VLANs 
+* Router connects VLANs 
+* Network fully working 
