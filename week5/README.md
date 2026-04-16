@@ -98,7 +98,7 @@ VLAN successfully isolates traffic between different groups.
 
 ##  Network Topology
 
-![Task2 Network](topology.png)
+![Task2 Network](topologyweek5.png)
 
 📌 Router connected to switch via trunk link.
 
@@ -160,7 +160,7 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 
 ##  Router Configuration
 
-![Router Config](routeripaddress.png)
+![Router Config](routeripaddress1.png)
 
 📌 Shows VLAN interfaces and gateway setup.
 
@@ -169,8 +169,8 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 ##  Connectivity Testing
 
 ![Task2 Ping](gatewaysamepingsuccessful.png)
-![Task2 Ping](h3ping.png)
-![Task2 Ping](h4ping.png)
+![Task2 Ping](h3-ping.png)
+![Task2 Ping](h4-ping.png)
 ![Task2 Ping](pingfailedh1with2.104.png)
 
 📌 Inter-VLAN communication successful.
