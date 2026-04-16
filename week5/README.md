@@ -19,7 +19,7 @@ Two tasks were performed:
 ---
 
 #  Task 1: VLAN Configuration on Switch
-
+![Task1 Network](projectcreate.png)
 ##  Network Topology
 
 ![Task1 Network](topology.png)
@@ -82,6 +82,10 @@ ovs-vsctl set port eth4 tag=20
 
 * Different VLAN → incomplete
 ![Task1 Ports](DifferentVLAN.png)
+
+*Result of ARP using arp -n 
+![Task1 Ports](arp-a.png)
+
 ---
 
 ## Conclusion (Task 1)
