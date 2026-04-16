@@ -98,7 +98,7 @@ VLAN successfully isolates traffic between different groups.
 
 ##  Network Topology
 
-![Task2 Network](Task2/network.png)
+![Task2 Network](topology.png)
 
 📌 Router connected to switch via trunk link.
 
@@ -116,6 +116,8 @@ ovs-vsctl set port eth4 tag=20
 ```
 
 ---
+
+![Task VLAN Setup](Tagsetandlist.png)
 
 ### Trunk Port
 
@@ -158,7 +160,7 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 
 ##  Router Configuration
 
-![Router Config](Task2/router-config.png)
+![Router Config](routeripaddress.png)
 
 📌 Shows VLAN interfaces and gateway setup.
 
@@ -166,7 +168,10 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 
 ##  Connectivity Testing
 
-![Task2 Ping](Task2/ping.png)
+![Task2 Ping](gatewaysamepingsuccessful.png)
+![Task2 Ping](h3ping.png)
+![Task2 Ping](h4ping.png)
+![Task2 Ping](pingfailedh1with2.104.png)
 
 📌 Inter-VLAN communication successful.
 
