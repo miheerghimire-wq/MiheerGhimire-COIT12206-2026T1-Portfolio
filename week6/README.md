@@ -15,22 +15,22 @@ This topology shows two LANs connected through two routers. The left side contai
 ## Left LAN Host Configurations
  
 ### HostA
-![HostA](hostA-config.png)
+![HostA](hostA.png)
  
 HostA was configured with a static IP address in the 10.10.10.0/24 network and used Router1 as the default gateway.
  
 ### HostB
-![HostB](hostB-config.png)
+![HostB](hostB.png)
  
 HostB was configured in the same subnet as HostA with a different host address.
  
 ### HostC
-![HostC](hostC-config.png)
+![HostC](hostC.png)
  
 HostC was configured with a static IP in the same left-side network and used the same gateway.
  
 ### HostD
-![HostD](hostD-config.png)
+![HostD](hostD.png)
  
 HostD was also configured in the 10.10.10.0/24 subnet.
  
@@ -39,22 +39,22 @@ HostD was also configured in the 10.10.10.0/24 subnet.
 ## Right LAN Host Configurations
  
 ### Host1
-![Host1](host1-config.png)
+![Host1](host1.png)
  
 Host1 was configured in the 10.10.20.0/24 network.
  
 ### Host2
-![Host2](host2-config.png)
+![Host2](host2.png)
  
 Host2 was configured with a static IP in the same subnet as Host1.
  
 ### Host3
-![Host3](host3-config.png)
+![Host3](host3.png)
  
 Host3 was configured in the right-side LAN and used Router2 as the default gateway.
  
 ### Host4
-![Host4](host4-config.png)
+![Host4](host4.png)
  
 Host4 was also configured in the same subnet and checked using interface commands.
  
@@ -63,20 +63,20 @@ Host4 was also configured in the same subnet and checked using interface command
 ## Router Configuration
  
 ### Router1
-![Router1 Config](router1-config.png)
+![Router1 Config](router1.png)
  
 Router1 connects the left LAN to the inter-router network. IP forwarding was enabled so packets could move between networks.
  
-![Router1 Check](router1-check.png)
+![Router1 Check](router1.1.png)
  
 This screenshot shows interface checking after configuration.
  
 ### Router2
-![Router2 Config](router2-config.png)
+![Router2 Config](router2.png)
  
 Router2 connects the inter-router network to the right LAN. IP forwarding was also enabled here.
  
-![Router2 Check](router2-check.png)
+![Router2 Check](router2.2.png)
  
 This screenshot shows the active interface details after setup.
  
