@@ -176,6 +176,11 @@ echo 1 > /proc/sys/net/ipv4/ip_forward
 📌 Inter-VLAN communication successful.
 
 ---
+## wireshark
+![Task wireshark](SSSSCAPTURE.png)
+
+
+
 
 ##  Conclusion (Task 2)
 
