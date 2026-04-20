@@ -1,4 +1,14 @@
-##WEEK 1
+# WEEK 1- Portfolio
+
+## Course
+**COIT12206 – TCP/IP Principles and Protocols**
+
+## Student Details
+- **Name:** Miheer Ghimire 
+- **Student ID:** 12304055 
+- **Term:** 2026 Term 1  
+
+---
 ## Project Overview
 This week1 project shows, a simple TCP/IP network configuration with GNS3. A host machine was configured with a static IP address and tested using the GNS3 Web UI console.
 
