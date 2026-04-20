@@ -1,6 +1,6 @@
 ##WEEK 1
 ## Project Overview
-This project shows a simple TCP/IP network configuration with GNS3. A host machine was configured with a static IP address and tested using the GNS3 Web UI console.
+This week1 project shows, a simple TCP/IP network configuration with GNS3. A host machine was configured with a static IP address and tested using the GNS3 Web UI console.
 
 ## Objective are:
 - Understand TCP/IP configuration
@@ -46,11 +46,9 @@ iface eth0 inet static
 
 ## Project Reflection of  TCP/IP Configuration using GNS3
 
-This project allowed me to understand TCP/IP configuration setting  in a realistic and practical way. Although I was already familiar with the theoretical concepts, actually configuring and setting up a network in GNS3 made everything clearer.
+This weekly project allowed me to understand TCP/IP configuration setting  in a realistic and practical way. Although I was already familiar with the theoretical concepts, actually configuring and setting up a network in GNS3 made everything clearer. Whereas manually setting up a static IP address, also help to understand how devices communicate or connect within the same network. 
 
-Whereas manually setting up a static IP address, also help to understand how devices communicate or connect within the same network. 
-
-Overall, working with GNS3 project help me to  gain me hands-on experience in building and managing network topologies, which help me  engaging and helped to connect theoretical as well as  knowledge with real-world applications.
+Overall, working with GNS3 project help to gain hands-on experience in building and managing network topologies, which help engaging and helped to connect theoretical as well as practical with real-world applications.
 
 ---
 
