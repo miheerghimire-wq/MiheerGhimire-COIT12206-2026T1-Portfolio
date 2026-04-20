@@ -44,6 +44,8 @@ iface eth0 inet static
 ![Console](console.png)
 
 
+---
+
 ## Project Reflection of  TCP/IP Configuration using GNS3
 
 This weekly project allowed me to understand TCP/IP configuration setting  in a realistic and practical way. Although I was already familiar with the theoretical concepts, actually configuring and setting up a network in GNS3 made everything clearer. Whereas manually setting up a static IP address, also help to understand how devices communicate or connect within the same network. 
