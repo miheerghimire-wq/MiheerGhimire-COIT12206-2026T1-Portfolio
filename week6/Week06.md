@@ -30,7 +30,7 @@ Shown topology exhibits two LANs that are linked with the help of two routers, w
 HostA was set with a fixed IP address of 10.10.10.0/24 network and default route was Router1.
  
 ### HostB Console:
-![HostB](hostB.png)
+![HostB](HostB.png)
  
 It was set to be on the same subnet as HostA but having a different host address.
 
