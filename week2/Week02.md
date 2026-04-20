@@ -1,7 +1,18 @@
+# WEEK 2- Portfolio
+
+## Course
+**COIT12206 – TCP/IP Principles and Protocols**
+
+## Student Details
+- **Name:** Miheer Ghimire 
+- **Student ID:** 12304055
+- **Term:** 2026 Term 1  
+
+---
 
 ## Week 2: Project Overview
 
-This project presents a TCP/IP network topology in GNS3 with multiple hosts linked to each other with the help of a switch. Each of the hosts will be set to a static IP and tested through ping command.
+This week 2 project presents a TCP/IP network topology in GNS3 with multiple hosts linked to each other with the help of one switch. Each of the hosts will be set to a static IP and tested connectivity through ping command.
 
 
 ---
