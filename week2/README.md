@@ -1,12 +1,14 @@
 
-## Project Overview- Week 2
-This project demonstrates a TCP/IP network setup using GNS3 with multiple hosts connected through a switch. Each host is configured with a static IP address and tested using ping commands.
+## Week 2: Project Overview
+
+This project presents a TCP/IP network topology in GNS3 with multiple hosts linked to each other with the help of a switch. Each of the hosts will be set to a static IP and tested through ping command.
+
 
 ---
 
-## Network Topology
-- 4 Hosts (Host1, Host2, Host3, Host4)
-- 1 Switch
+## Network Topology of Week 2
+- Used 4 Hosts (Host1, Host2, Host3, Host4)
+- Used 1 Switch
 - Star topology connection
 
 ---
@@ -38,38 +40,54 @@ iface eth0 inet static
 
 ## Screenshots
 
-### Topology
+### Topology of Week 2 
 ![Topology](topology1.png)
 
-### Host 1 Configuration
+### Host 1 Configuration Screenshot:
 ![Host1](Config-host1.png)
 
-### Host 2 Configuration
+### Host 2 Configuration Screenshot:
 ![Host2](Config-host2.png)
 
-### IP Address Host1
+### Setting IP Address of Host 1:
 ![IP1](ip-host1.png)
 
-### IP Address Host2
+### Setting IP Address of Host 2:
 ![IP2](ip-host2.png)
 
-### IP Address Host3
+### Setting IP Address of Host 3:
 ![IP3](ip-host3.png)
 
-### IP Address Host4
+### Setting IP Address of Host 4:
 ![IP4](ip-host4.png)
 
-### Console Host3
+### Console of Host 3:
 ![Console3](console-host3.png)
 
-### Console Host4
+### Console of Host 4:
 ![Console4](console-host4.png)
 
-### Ping Test (Success Host1 to Host2)
+### Ping Test Command (Successfully ping between Host1 to Host2):
 ![Ping1](Ping-success-1to2.png)
 
-### Ping Test (Success Host4 to Host2)
+### Ping Test (Successfully ping between Host4 to Host2):
 ![Ping2](ping-sucess-4to2.png)
 
-### Ping Test (Failure)
+### Ping Test (Failure in pinging):
 ![Failure](ping-failure.png)
+
+###  Reflection
+Activity help me to understand how the TCP/IP configuration in a practical way. By assigning with static IP addresses manually.
+
+During testing, I noticed that correct configuration setting is very important. A small mistake can cause communication failure.
+
+Overall, observing both successful and failed ping output helped me understand how network connectivity works using GNS3, which made the learning process more interactive and helped me connect theory with real-world networking.
+
+---
+
+### Key Concepts:
+- Setteing of TCP/IP configuration and communication between devices  
+- Value of static IP assignment  
+- Subnet mask in defining the network  
+- Ping command is used for testing connectivity  
+- Practical use of GNS3   
