@@ -135,12 +135,12 @@ After stopping the relevant NETem node, the route changed and traffic used the a
 | FRR1 | 10.10.5.0/24 | via 10.10.3.3 |
 | FRR1 | 10.10.6.0/24 | via 10.10.2.2 or 10.10.3.3 depending on topology state |
 
-## Key Observation
+## Key Observation of Week 4:
 
 OSPF automatically updated the path in case of a link failure. which demonstrates the utility of dynamic routing in larger networks: it reduce manual reconfigurability, and adapts to changes in topology.
 
 ## Conclusion
-Week 4 successfully demonstrated:
+In Week 4 successfully demonstrated:
 - Concepts of static routing and viewing routing table in Task 1.
 - Task 2: OSPF neighboring processes and dynamic learning of routes.
 - Automatic change of path in case of unavailable link.
