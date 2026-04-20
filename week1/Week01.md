@@ -42,17 +42,23 @@ iface eth0 inet static
 ## Screenshots of GNS Project
 
 ### Project Creation of GNS 
-![Project](project-name.png)
+<p align="center">
+  <img src="project-name.png" width="65%">
+</p>
 
 ### Topology of Week 1 View
-![Topology](topology.png)
+
+<p align="center">
+  <img src="topology.png" width="65%">
+</p>
 
 ### Host 1  Configuration Setting
-![Config](config.png)
+
+<img src="config.png" width="65%">
 
 ### Console Output of host 1 
-![Console](console.png)
 
+<img src="console.png" width="65%">
 
 ---
 
