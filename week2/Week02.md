@@ -55,50 +55,62 @@ iface eth0 inet static
 ![Topology](topology1.png)
 
 ---
+
 ### Host 1 Configuration Screenshot:
 ![Host1](Config-host1.png)
 
 ---
+
 ### Host 2 Configuration Screenshot:
 ![Host2](Config-host2.png)
 
 ---
+
 ### Setting IP Address of Host 1:
 ![IP1](ip-host1.png)
 
 ---
+
 ### Setting IP Address of Host 2:
 ![IP2](ip-host2.png)
 
 ---
+
 ### Setting IP Address of Host 3:
 ![IP3](ip-host3.png)
 
 ---
+
 ### Setting IP Address of Host 4:
 ![IP4](ip-host4.png)
 
 ---
+
 ### Console of Host 3:
 ![Console3](console-host3.png)
 
 ---
+
 ### Console of Host 4:
 ![Console4](console-host4.png)
 
 ---
+
 ### Ping Test Command (Successfully ping between Host1 to Host2):
 ![Ping1](Ping-success-1to2.png)
 
 ---
+
 ### Ping Test (Successfully ping between Host4 to Host2):
 ![Ping2](ping-sucess-4to2.png)
 
 ---
+
 ### Ping Test (Failure in pinging):
 ![Failure](ping-failure.png)
 
 ---
+
 ###  Reflection
 Activity help me to understand how the TCP/IP configuration in a practical way. By assigning with static IP addresses manually.
 
