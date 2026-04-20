@@ -52,62 +52,73 @@ iface eth0 inet static
 ## Screenshots
 
 ### Topology of Week 2 
-![Topology](topology1.png)
+<img src="topology1.png" width="65%">
 
 ---
 
 ### Host 1 Configuration Screenshot:
-![Host1](Config-host1.png)
+
+<img src="Config-host1.png" width="65%">
 
 ---
 
 ### Host 2 Configuration Screenshot:
-![Host2](Config-host2.png)
+
+<img src="Config-host2.png" width="65%">
 
 ---
 
 ### Setting IP Address of Host 1:
-![IP1](ip-host1.png)
+
+<img src="ip-host1.png" width="65%">
 
 ---
 
 ### Setting IP Address of Host 2:
-![IP2](ip-host2.png)
+
+<img src="ip-host2.png" width="65%">
 
 ---
 
 ### Setting IP Address of Host 3:
-![IP3](ip-host3.png)
+
+<img src="ip-host3.png" width="65%">
 
 ---
 
 ### Setting IP Address of Host 4:
-![IP4](ip-host4.png)
+
+<img src="ip-host4.png" width="65%">
 
 ---
 
 ### Console of Host 3:
-![Console3](console-host3.png)
+
+<img src="console-host3.png" width="65%">
 
 ---
 
 ### Console of Host 4:
-![Console4](console-host4.png)
+
+<img src="console-host4.png" width="65%">
 
 ---
 
 ### Ping Test Command (Successfully ping between Host1 to Host2):
-![Ping1](Ping-success-1to2.png)
+
+<img src="Ping-success-1to2.png" width="65%">
 
 ---
 
 ### Ping Test (Successfully ping between Host4 to Host2):
-![Ping2](ping-sucess-4to2.png)
+
+<img src="ping-sucess-4to2.png" width="65%">
 
 ---
 
 ### Ping Test (Failure in pinging):
-![Failure](ping-failure.png)
+
+<img src="ping-failure.png" width="65%">
 
 ---
 
