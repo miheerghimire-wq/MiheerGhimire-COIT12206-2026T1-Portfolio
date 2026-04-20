@@ -1,14 +1,8 @@
-# COIT12206 – TCP/IP Principles and Protocols Portfolio
 
-## Student Details
-- **Name:** Miheer Ghimire
-- **Student ID:** 12304055
 
-## Portfolio Contents
-This repository contains my practical work and evidence for COIT12206.
-
-### Weeks Included
-- **Week 4** – View Routing Tables and Dynamic Routing with OSPF
+### Week 4 
+- **Task-1** – View Routing Tables and
+- **Task-2** Dynamic Routing with OSPF
 
 ## Tools Used
 - GNS3
@@ -16,27 +10,27 @@ This repository contains my practical work and evidence for COIT12206.
 - FRRouting (FRR)
 - GitHub
 
-## Repository Structure
-- `Week-4/` – Task 1 and Task 2 files, screenshots, and explanation
+
 
 ---
 
-# Task 1 – View Routing Tables
+# Task-1 – View Routing Tables:
 
-## Objective
-This task demonstrates how to configure a small routed network using Linux hosts and a Linux router, enable forwarding on the router, view routing tables, and verify connectivity between two subnets.
+## Objective of this project:
+
+This task 1 illustrates how to set up a small routed network with Linux hosts and a Linux router, to enable forwarding on the router, to look at routing tables and verify connectivity between two subnets.
 
 ## Network Topology
 The network contains:
-- Host1 and Host2 on subnet `10.10.1.XY/24`
-- Host3 on subnet `10.10.2.XY/24`
-- Router connecting both subnets
-- One switch connecting Host1, Host2, and the router interface on subnet A
+- Host 1  and Host 2 on subnet `10.10.1.XY/24`
+- Host 3 on subnet `10.10.2.XY/24`
+- Router connecting between two subnets.
+- A single switch connecting Host1, Host2, and the router interface in subnet A.
 
 ![Project Create](name.png)
 ![Task 1 Topology](outface.png)
 
-## IP Addressing Used
+## IP Addressing Used in this project :
 
 | Device | Interface | IP Address | Netmask | Gateway |
 |---|---|---:|---:|---:|
@@ -46,84 +40,86 @@ The network contains:
 | Router | eth0 | 10.10.1.1 | 255.255.255.0 | – |
 | Router | eth1 | 10.10.2.1 | 255.255.255.0 | – |
 
-## Configuration Evidence
+## Evidence of Configuration
 
-### Router Configuration
+### Router Configuration Setting Screenshot:
+
 ![Task 1 Router Configuration](router.png)
 ![ Router Configuration](week6router.png)
 
 
-### Host1 Configuration
+### Configuration of Host 1:
 ![Task 1 Host1 Configuration](ping.png)
 
-### Host2 Configuration
+### Configuration of Host 2:
 ![Task 1 Host2 Configuration](host2.png)
 
-### Host3 Configuration
+### Configuration of Host 3:
 ![Task 1 Host3 Configuration](hhost3.png)
 
 ## Forwarding
 - Forwarding was disabled on hosts.
-- Forwarding was enabled on the router so it could route packets between the two subnets.
+- Router was turned on forwarding to allow the router to forward packets between the two subnets.
 
 ## Routing Table Evidence
 
-### Router Routing Table
+### Router Routing Table Screenshots:
 ![Task 1 Router ip route show](pingh1-router.png)
 
-## Connectivity Test
+## Ping Test Connectivity:
 A successful ping from Host1 to hosts and router addresses shows that routing worked correctly across subnets.
 
-### Host1 Ping Results
+### Results of Host 1 in Console:
 ![Task 1 Host1 Ping](pingh1-router.png)
 
 ## Summary
 Task 1 was completed by:
-1. Building a two-subnet topology
-2. Assigning static IP addresses
-3. Enabling forwarding on the router
+1. Building a two ubnet topology
+2. Static IP addresses
+3. Forwarding on the router enabled.
 4. Viewing routing tables
-5. Confirming communication between subnets with ping
+5. Ping subnet confirmation Checking the subnet to subnet communication.
+
 
 ---
 
-# Task 2 – Dynamic Routing with OSPF
+# Task-2 – Dynamic Routing with OSPF
 
 ## Objective
-This task demonstrates how OSPF dynamically shares routes between FRR routers and how the path changes automatically after a link failure.
+This task-2 exercise shows the dynamism of OSPF in sharing routes between FRR routers and the dynamic nature of the path which changes automatically in case of a link failure.
 
 ## OSPF Topology
 The topology contains:
-- Host1 on network `10.10.1.0/24`
-- Host2 on network `10.10.6.0/24`
+- Host 1 on network `10.10.1.0/24`
+- Host 2 on network `10.10.6.0/24`
 - FRR1, FRR2, FRR3, and FRR4
-- Two possible paths between the hosts
-- NETem nodes used to simulate path failure
+- There are two possible paths between the hosts
+- NETem nodes used to simulate path failure in the task 2.
 
 ![Create project](2.png)
 
 ![Task 2 Topology](TopologyOSPF.png)
 
-## OSPF Verification
+## OSPF Verification:
 
-### OSPF Neighbor Output
+### OSPF Neighbor Output Screenshot:
 This confirms that FRR1 formed OSPF adjacencies with neighboring routers.
 
 ![Task 2 OSPF Neighbor](frr1showipospf.png)
 
-### IP Route Table
+### IP Route Table Output:
 This shows the routes installed in the router forwarding table.
 
 ![Task 2 IP Route](ipospfroute.png)
 
 ### Ho
 
-## Traceroute Before Link Failure
+## Traceroute Before Link Failure Output:
 Before disconnecting the path, traceroute from Host1 to Host2 followed the current preferred route.
 ![Task 2 Traceroute Before](Neterm2stop.png)
 ![Task 2 Traceroute Before](h1-traceroute-before.png)
 
-## Traceroute After Link Failure
+## Traceroute After Link Failure Output:
 After stopping the relevant NETem node, the route changed and traffic used the alternate path.
 
 ![Task 2 Traceroute After](after-result-stopping.png)
@@ -140,10 +136,11 @@ After stopping the relevant NETem node, the route changed and traffic used the a
 | FRR1 | 10.10.6.0/24 | via 10.10.2.2 or 10.10.3.3 depending on topology state |
 
 ## Key Observation
-OSPF automatically updated the path after a link failure. This shows why dynamic routing is useful in larger networks: it reduces manual reconfiguration and adapts to topology changes.
+
+OSPF automatically updated the path in case of a link failure. which demonstrates the utility of dynamic routing in larger networks: it reduce manual reconfigurability, and adapts to changes in topology.
 
 ## Conclusion
 Week 4 successfully demonstrated:
-- Static routing concepts and routing table viewing in Task 1
-- OSPF neighbor establishment and dynamic route learning in Task 2
-- Automatic path change when a link became unavailable
+- Concepts of static routing and viewing routing table in Task 1.
+- Task 2: OSPF neighboring processes and dynamic learning of routes.
+- Automatic change of path in case of unavailable link.
