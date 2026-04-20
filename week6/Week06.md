@@ -66,22 +66,25 @@ This sixth week was about ARP and simple address resolution in a routed network.
  
 ## Router Configuration
  ### Router1 
-![Router1 Config](router1.png)
+ 
+ ![Router2 Check](router2.2.png)
 
  Above Screenshot Shown, left LAN is connected to the inter-router network by Router1. IP forwarding was also turned on to allow the movement of packets across networks.
  
-![Router1 Check](router1.1.png)
+ ![Router2 Config](router2.png)
 
  Screenshot of interface checking following configuration.
  
 ### Router2
-![Router2 Config](router2.png)
-
- Router2 links the inter- router network to the right LAN. And here also IP forwarding was enabled.
  
-![Router2 Check](router2.2.png)
+ ![Router1 Check](router1.1.png)
+ 
+ Router2 links the inter- router network to the right LAN. And here also IP forwarding was enabled.
 
- This is the active interface details after setup.
+ ![Router1 Config](router1.png)
+
+
+This is the active interface details after setup.
  
 ---
  ## Testing and Verification
