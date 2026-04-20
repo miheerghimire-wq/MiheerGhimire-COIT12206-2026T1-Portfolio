@@ -23,11 +23,14 @@ Two tasks were performed in this week:
 ---
 #  Task 1: VLAN Configuration on Switch Screenshot:
 ![Task1 Network](projectcreate.png)
+
+---
 ##  Network Topology of VlAN configuration on switch:
 
 ![Task1 Network](topology.png)
 
 Topology shows 4 hosts connected to a switch without a router.
+
 ---
 
 ## Configuration made up in Week 5:
@@ -85,6 +88,7 @@ Which shows VLAN tagging with switch ports on Open vSwitch.
 * Different VLAN → incomplete
 ![Task1 Ports](DifferentVLAN.png)
 
+---
 ##  Output of ARP using `arp -n`
 
 ![Task1 Ports](arp-a.png)
