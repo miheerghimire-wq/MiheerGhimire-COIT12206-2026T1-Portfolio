@@ -9,7 +9,6 @@
 - **Term:** 2026 Term 1  
 
 ---
-
 #  Week 5 Project Overview:
 
 This week 5 project illustrates the VLAN configuration and inter-VLAN routing using Open vSwitch and also a Linux Router in GNS3.
@@ -21,9 +20,7 @@ Two tasks were performed in this week:
 
   **Objective:**
    This task involves configuring a VLAN on Switch.
-
 ---
-
 #  Task 1: VLAN Configuration on Switch Screenshot:
 ![Task1 Network](projectcreate.png)
 ##  Network Topology of VlAN configuration on switch:
@@ -31,7 +28,6 @@ Two tasks were performed in this week:
 ![Task1 Network](topology.png)
 
 Topology shows 4 hosts connected to a switch without a router.
-
 ---
 
 ## Configuration made up in Week 5:
