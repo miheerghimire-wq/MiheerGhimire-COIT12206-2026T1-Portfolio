@@ -75,7 +75,8 @@ This sixth week was about ARP and simple address resolution in a routed network.
  The screen shots demonstrate interface checks with the help of the usage of ifconfig, connectivity checks with the help of ping, and ARP checking with the help of arp -a or similar commands. This aligns with the key concepts in the Week 6 lecture, where ARP is employed to assign IP addresses to MAC addresses within a local network prior to frame delivery:contentReference[oaicite:1]{index=1}
  
 From the lecture, ARP is applied in situations where a device has the destination IP address yet it requires the corresponding MAC address on the LAN. The ARP request is sent into a broadcast and ARP reply is returned in the form of unicast.:contentReference[oaicite:2]{index=2}
- 
----
+
 ## Result
 Network devices were given a static IP address, routers were programmed to send packets and connectivity test was carried out to confirm that communication was working. Checks on ARP assisted in the verification of how devices found addresses on the local network.
+
+---
