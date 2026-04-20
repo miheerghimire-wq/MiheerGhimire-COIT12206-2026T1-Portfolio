@@ -15,42 +15,51 @@ This sixth week was about ARP and simple address resolution in a routed network.
  ---
  ## Topology of week 6 –Address Resolution and Management:
 ![Topology](image.png)
+
  Shown topology exhibits two LANs that are linked with the help of two routers, where Host A to Host D and Host 1 to Host 4 are found on the left and right sides respectively.
  
 ---
  ## Left LAN Host Configurations And Left LAN hosts with switch configurations:
  ### HostA Console:
 ![HostA](hostA.png)
+
  HostA was set with a fixed IP address of 10.10.10.0/24 network and default route was Router1.
  
 ### HostB Console:
 ![HostB](HostB.png)
+
  It was set to be on the same subnet as HostA but having a different host address.
 
  ### HostC Console:
 ![HostC](hostC.png)
+
  HostC had a static IP address in the same left-side network and the same gateway.
 
  ### HostD
 ![HostD](hostD.png)
+
  It was also configured in the 10.10.10.0/24 subnet.
  
 ---
  ## Right LAN Host Configurations 
  ### Host1 Console:
 ![Host1](host1.png)
+
  It was configured in the 10.10.20.0/24 network.
  
 ### Host2 Console:
 ![Host2](host2.png)
+
  Host2 was set to use a fixed IP in the same subnet as Host1.
  
 ### Host3 Console:
 ![Host3](host3.png)
+
  Host3 was set up in the right hand LAN and had Router 2 as the default gateway.
  
 ### Host4 Console:
 ![Host4](host4.png)
+
  Host4 was also configured in the same subnet and checked using interface commands.
  
 ---
@@ -58,16 +67,20 @@ This sixth week was about ARP and simple address resolution in a routed network.
 ## Router Configuration
  ### Router1 
 ![Router1 Config](router1.png)
+
  Above Screenshot Shown, left LAN is connected to the inter-router network by Router1. IP forwarding was also turned on to allow the movement of packets across networks.
  
 ![Router1 Check](router1.1.png)
+
  Screenshot of interface checking following configuration.
  
 ### Router2
 ![Router2 Config](router2.png)
+
  Router2 links the inter- router network to the right LAN. And here also IP forwarding was enabled.
  
 ![Router2 Check](router2.2.png)
+
  This is the active interface details after setup.
  
 ---
