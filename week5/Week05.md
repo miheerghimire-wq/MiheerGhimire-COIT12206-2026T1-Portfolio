@@ -45,6 +45,8 @@ Topology shows 4 hosts connected to a switch without a router.
 ![Configuration](h3.png)
 ![Configuration](h4.png)
 
+---
+
 ### VLAN Setup Screenshot:
 ![VLAN Setup](Setport.png)
 ```
@@ -60,9 +62,7 @@ ovs-vsctl set port eth4 tag=20
 ---
 
 ## Switch Configuration Screenshot:
-
 ![Task1 Ports](tag.png)
-
 ![Task1 Ports](tag2nd.png)
 
 Which shows VLAN tagging with switch ports on Open vSwitch.
@@ -79,7 +79,6 @@ Which shows VLAN tagging with switch ports on Open vSwitch.
 2. Different VLAN = reslut ping fails (Isolation functioning)
 
 ---
-
 ##  ARP Observation:
 ![Task1 Ports](h1pingtoall.png)
 ![Task1 Ports](h4.png)
