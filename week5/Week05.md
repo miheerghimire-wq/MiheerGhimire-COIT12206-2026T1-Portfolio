@@ -4,7 +4,7 @@
 **COIT12206 – TCP/IP Principles and Protocols**
 
 ## Student Details
-- **Name:** Miheer ghimire  
+- **Name:** Miheer Ghimire  
 - **Student ID:** 12304055 
 - **Term:** 2026 Term 1  
 
