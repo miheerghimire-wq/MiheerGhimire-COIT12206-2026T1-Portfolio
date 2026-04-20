@@ -1,12 +1,21 @@
-# Week 6 – Address Resolution and Management
+# WEEK 6 -Portfolio
+
+## Course
+**COIT12206 – TCP/IP Principles and Protocols**
+
+## Student Details
+- **Name:** Miheer Ghimire  
+- **Student ID:** 12304055 
+- **Term:** 2026 Term 1  
+
  
 ## Overview Of Week 6:
 
-This week was about ARP and simple address resolution in a routed network. It was a set of tasks to configure hosts and routers, verify interface settings, and test ping connectivity with ping command and ARP commands.
+This sixth week was about ARP and simple address resolution in a routed network. It was a set of tasks to configure hosts and routers, verify interface settings, and test ping connectivity with ping command and ARP commands.
  
 ---
  
-## Topology of week 6:
+## Topology of week 6 –Address Resolution and Management:
 ![Topology](image.png)
  
 Shown topology exhibits two LANs that are linked with the help of two routers, where Host A to Host D and Host 1 to Host 4 are found on the left and right sides respectively.
