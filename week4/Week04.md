@@ -1,6 +1,15 @@
+# WEEK 4 -Portfolio
+
+## Course
+**COIT12206 – TCP/IP Principles and Protocols**
+
+## Student Details
+- **Name:** Miheer Ghimire 
+- **Student ID:** 12304055 
+- **Term:** 2026 Term 1
 
 
-### Week 4 
+---
 - **Task-1** – View Routing Tables and
 - **Task-2** Dynamic Routing with OSPF
 
@@ -10,8 +19,6 @@
 - FRRouting (FRR)
 - GitHub
 
-
-
 ---
 
 # Task-1 – View Routing Tables:
@@ -19,6 +26,8 @@
 ## Objective of this project:
 
 This task 1 illustrates how to set up a small routed network with Linux hosts and a Linux router, to enable forwarding on the router, to look at routing tables and verify connectivity between two subnets.
+
+---
 
 ## Network Topology
 The network contains:
@@ -30,6 +39,8 @@ The network contains:
 ![Project Create](name.png)
 ![Task 1 Topology](outface.png)
 
+---
+
 ## IP Addressing Used in this project :
 
 | Device | Interface | IP Address | Netmask | Gateway |
@@ -40,6 +51,8 @@ The network contains:
 | Router | eth0 | 10.10.1.1 | 255.255.255.0 | – |
 | Router | eth1 | 10.10.2.1 | 255.255.255.0 | – |
 
+---
+
 ## Evidence of Configuration
 
 ### Router Configuration Setting Screenshot:
@@ -47,6 +60,8 @@ The network contains:
 ![Task 1 Router Configuration](router.png)
 ![ Router Configuration](week6router.png)
 
+
+---
 
 ### Configuration of Host 1:
 ![Task 1 Host1 Configuration](ping.png)
@@ -61,6 +76,8 @@ The network contains:
 - Forwarding was disabled on hosts.
 - Router was turned on forwarding to allow the router to forward packets between the two subnets.
 
+---
+
 ## Routing Table Evidence
 
 ### Router Routing Table Screenshots:
@@ -68,6 +85,8 @@ The network contains:
 
 ## Ping Test Connectivity:
 A successful ping from Host1 to hosts and router addresses shows that routing worked correctly across subnets.
+
+---
 
 ### Results of Host 1 in Console:
 ![Task 1 Host1 Ping](pingh1-router.png)
@@ -88,6 +107,8 @@ Task 1 was completed by:
 ## Objective
 This task-2 exercise shows the dynamism of OSPF in sharing routes between FRR routers and the dynamic nature of the path which changes automatically in case of a link failure.
 
+---
+
 ## OSPF Topology
 The topology contains:
 - Host 1 on network `10.10.1.0/24`
@@ -99,6 +120,8 @@ The topology contains:
 ![Create project](2.png)
 
 ![Task 2 Topology](TopologyOSPF.png)
+
+---
 
 ## OSPF Verification:
 
@@ -112,7 +135,8 @@ This shows the routes installed in the router forwarding table.
 
 ![Task 2 IP Route](ipospfroute.png)
 
-### Ho
+---
+
 
 ## Traceroute Before Link Failure Output:
 Before disconnecting the path, traceroute from Host1 to Host2 followed the current preferred route.
@@ -124,6 +148,8 @@ After stopping the relevant NETem node, the route changed and traffic used the a
 
 ![Task 2 Traceroute After](after-result-stopping.png)
 
+---
+
 ## Routing Summary Table
 
 | Router | Destination Network | Next Node / Interface |
@@ -134,6 +160,9 @@ After stopping the relevant NETem node, the route changed and traffic used the a
 | FRR1 | 10.10.4.0/24 | via 10.10.2.2 |
 | FRR1 | 10.10.5.0/24 | via 10.10.3.3 |
 | FRR1 | 10.10.6.0/24 | via 10.10.2.2 or 10.10.3.3 depending on topology state |
+
+
+---
 
 ## Key Observation of Week 4:
 
